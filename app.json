@@ -4,7 +4,7 @@
     "website": "https://FileToLinkTeLeTiPs/",
     "repository": "https://github.com/BXBots/FileToLinkTeLeTiPs",
     "env": {
-          "TlBOT_TOKEN": {"description": "Your Bot's Token From BotFather Bot","required": true}
+          "BOT_TOKEN": {"description": "Your Bot's Token From BotFather Bot","required": true}
     },
     "buildpacks": [
       {"url": "heroku/python"}
