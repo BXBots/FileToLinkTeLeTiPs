@@ -10,7 +10,7 @@ def short(url):
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, 'Hai,\n\n>> `Iam a simple File To Link Bot.send me any file I will give you short link`.\n\n👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @BX_Botz')
+    bot.reply_to(message, 'Hai Dude,\n\n𝙸𝚊𝚖  𝚊  𝚜𝚒𝚖𝚙𝚕𝚎  𝙵𝚒𝚕𝚎  𝚃𝚘  𝙻𝚒𝚗𝚔  𝙱𝚘𝚝 . 𝚜𝚎𝚗𝚍  𝚖𝚎  𝚊𝚗𝚢  𝚏𝚒𝚕𝚎  𝙸  𝚠𝚒𝚕𝚕  𝚐𝚒𝚟𝚎 𝚢𝚘𝚞  𝚜𝚑𝚘𝚛𝚝  𝚕𝚒𝚗𝚔.\n\n👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @BX_Botz')
 
 @bot.message_handler(commands=['help'])
 def send_welcome(message):
