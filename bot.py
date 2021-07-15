@@ -14,7 +14,7 @@ def send_welcome(message):
 
 @bot.message_handler(commands=['help'])
 def send_welcome(message):
-    bot.reply_to(message, 'Send me any type of a file & I will send you the shorten link of it')    
+    bot.reply_to(message, '➠ 𝚂𝚎𝚗𝚍  𝙼𝚎  𝙰𝚗𝚢  𝚃𝚢𝚙𝚎  𝙾𝚏  𝙵𝚒𝚕𝚎 \n\n➠ 𝙸  𝚆𝚒𝚕𝚕  𝚂𝚎𝚗𝚍  𝚈𝚘𝚞  𝚂𝚑𝚘𝚛𝚝𝚎𝚗  𝙻𝚒𝚗𝚔\n\n👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @BX_Botz')    
 
 @bot.message_handler(content_types=['photo', 'video', 'audio', 'document'])
 def file_sent(message):
